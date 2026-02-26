@@ -1,8 +1,8 @@
 seo:
-  title: "Emma Thompson - UX/UI Designer"
-  description: "Welcome to my portfolio! I'm Emma Thompson, a UX/UI designer and front-end developer based in Boston. I specialize in creating user-centered digital experiences that are both beautiful and functional."
-title: "Hey, I'm Emma Thompson UX/UI Designer"
-description: "I craft intuitive digital experiences where design meets functionality. Based in Boston, bringing ideas to life through code and creativity."
+  title: "Oliver Maglana - Fullstack Developer"
+  description: "Welcome to my portfolio! I'm Oliver Maglana, a Fullstack developer based in Philippines. I specialize in creating user-centered digital experiences that are both beautiful and functional."
+title: "Hey, I'm Oliver Maglana Fullstack Developer"
+description: ""
 hero:
   links:
     - label: "Use this template"
@@ -30,8 +30,7 @@ hero:
 about:
   title: "About Me"
   description: |
-    As a UX/UI designer and front-end developer with 6 years of experience, I leverage my Boston University Interactive Design degree to craft user-centered digital experiences.
-    My approach blends creative strategy with technical expertise, transforming concepts into functional, purposeful digital products that seamlessly integrate design and technology.
+    I am Web developer with years of progressive experience also a self-starter and team builder. Full-stack developer that leans more toward the backend development. Have experience fixing, maintaining, and developing e-commerce websites. Specializes in the use of PHP and JavaScript frameworks. Loves working on API integrations, learning new tools.
 experience:
   title: Work Experience
   items:
