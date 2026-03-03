@@ -34,27 +34,41 @@ about:
 experience:
   title: Work Experience
   items:
-    - position: "Brand Designer at"
-      date: "2023 - Present"
+    - position: "Fullstack Web Developer at"
+      date: "02/2025 - 01/2026"
       company:
-        name: Nuxt
-        logo: "i-simple-icons-nuxtdotjs"
-        url: "https://nuxt.com"
+        name: "Modern McGuire Productions"
+        logo: ""
+        url: ""
         color: "#00DC82"
-    - position: "Assets Designer at"
-      date: "2022 - 2023"
+    - position: "Fullstack Web Developer at"
+      date: "06/2023 - 06/2024"
       company:
-        name: Raycast
-        logo: "i-simple-icons-raycast"
-        url: "https://raycast.com"
+        name: "BisectHosting"
+        logo: ""
+        url: ""
         color: "#FF6363"
-    - position: "Senior UX/UI Designer at"
-      date: "2020 - 2021"
+    - position: "Web Developer / Scraper at"
+      date: "03/2022 - 06/2023"
       company:
-        name: Linear
-        logo: "i-simple-icons-linear"
-        url: "https://linear.app"
+        name: "Awesome OS / Honey Paypal"
+        logo: ""
+        url: ""
         color: "#5E6AD2"
+    - position: "Fullstack Web Developer at"
+      date: "08/2021 - 08/2022"
+      company:
+        name: "iService Global Business Solutions"
+        logo: ""
+        url: ""
+        color: "#00DC82"
+    - position: "Fullstack Web Developer at"
+      date: "01/2018 - 01/2020"
+      company:
+        name: "Iroc Asia"
+        logo: ""
+        url: ""
+        color: "#00DC82"
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:
