@@ -72,18 +72,32 @@ experience:
 sidelines:
   title: Sidelines
   items:
-    - position: "Freelance Frontend Developer"
-      date: "2023 - Present"
+    - position: "Part-time Web Developer"
+      date: "08/2023 - 08/2024"
       company:
-        name: "Upwork"
-        logo: "i-simple-icons-upwork"
-        url: "https://upwork.com"
-        color: "#6FDA44"
-    - position: "Open Source Contributor"
-      date: "2022 - Present"
+        name: "DevignLabs"
+        logo: ""
+        url: "https://devignlabs.com"
+        color: "#181717"
+    - position: "Part-time Web Developer"
+      date: "08/2022 - 06/2023"
       company:
-        name: "GitHub"
-        logo: "i-simple-icons-github"
+        name: "Frosteam Digital"
+        logo: ""
+        url: ""
+        color: "#181717"
+    - position: "Part-time Web Developer"
+      date: "08/2022 - 11/2022"
+      company:
+        name: "Xiklab"
+        logo: ""
+        url: "https://github.com"
+        color: "#181717"
+    - position: "Part-time Web Developer"
+      date: "01/2020 - 08/2021"
+      company:
+        name: "Artisan Developers"
+        logo: ""
         url: "https://github.com"
         color: "#181717"
 testimonials:
