@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
   <UPageSection
-    :title="page.sidelines.title"
+    :title="page?.sidelines?.title"
     :ui="{
       container: '!p-0 gap-4 sm:gap-4',
       title: 'text-left text-xl sm:text-xl lg:text-2xl font-medium',
@@ -18,7 +18,7 @@ defineProps<{
     <template #description>
       <div class="flex flex-col gap-2">
         <Motion
-          v-for="(sideline, index) in page.sidelines.items"
+          v-for="(sideline, index) in page?.sidelines?.items"
           :key="index"
           :initial="{ opacity: 0, transform: 'translateY(20px)' }"
           :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
