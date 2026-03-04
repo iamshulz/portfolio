@@ -68,7 +68,24 @@ experience:
         name: "Iroc Asia"
         logo: ""
         url: ""
-        color: "#00DC82"
+        color: "#FF6363"
+sidelines:
+  title: Sidelines
+  items:
+    - position: "Freelance Frontend Developer"
+      date: "2023 - Present"
+      company:
+        name: "Upwork"
+        logo: "i-simple-icons-upwork"
+        url: "https://upwork.com"
+        color: "#6FDA44"
+    - position: "Open Source Contributor"
+      date: "2022 - Present"
+      company:
+        name: "GitHub"
+        logo: "i-simple-icons-github"
+        url: "https://github.com"
+        color: "#181717"
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:

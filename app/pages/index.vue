@@ -28,6 +28,7 @@ useSeoMeta({
     >
       <LandingAbout :page />
       <LandingWorkExperience :page />
+      <LandingSidelines :page />
     </UPageSection>
     <!--    <LandingBlog :page /> -->
     <!--    <LandingTestimonials :page /> -->

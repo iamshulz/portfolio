@@ -57,6 +57,18 @@ export default defineContentConfig({
             })
           }))
         }),
+        sidelines: createBaseSchema().extend({
+          items: z.array(z.object({
+            date: z.string(),
+            position: z.string(),
+            company: z.object({
+              name: z.string(),
+              url: z.string(),
+              logo: z.string().editor({ input: 'icon' }),
+              color: z.string()
+            })
+          }))
+        }),
         testimonials: z.array(createTestimonialSchema()),
         blog: createBaseSchema(),
         faq: createBaseSchema().extend({
