@@ -72,34 +72,34 @@ experience:
 sidelines:
   title: Sidelines
   items:
-    - position: "Part-time Web Developer"
+    - position: "Part-time Web Developer at"
       date: "08/2023 - 08/2024"
       company:
         name: "DevignLabs"
         logo: ""
         url: "https://devignlabs.com"
-        color: "#181717"
-    - position: "Part-time Web Developer"
+        color: "#FF6363"
+    - position: "Part-time Web Developer at"
       date: "08/2022 - 06/2023"
       company:
         name: "Frosteam Digital"
         logo: ""
         url: ""
-        color: "#181717"
-    - position: "Part-time Web Developer"
+        color: "#00DC82"
+    - position: "Part-time Web Developer at"
       date: "08/2022 - 11/2022"
       company:
         name: "Xiklab"
         logo: ""
         url: "https://github.com"
-        color: "#181717"
-    - position: "Part-time Web Developer"
+        color: "#5E6AD2"
+    - position: "Part-time Web Developer at"
       date: "01/2020 - 08/2021"
       company:
         name: "Artisan Developers"
         logo: ""
         url: "https://github.com"
-        color: "#181717"
+        color: "#FF6363"
 testimonials:
   - quote: "Emma's approach to UX design completely transformed our product. She has a rare ability to balance beautiful aesthetics with functional simplicity. The redesign not only looked better, but it reduced our customer support tickets by 40% and increased conversion rates across all key metrics."
     author:
