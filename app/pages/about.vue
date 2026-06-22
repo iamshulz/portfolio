@@ -38,6 +38,8 @@ useSeoMeta({
         :light="global.picture?.light!"
         :dark="global.picture?.dark!"
         :alt="global.picture?.alt!"
+        :width="288"
+        :height="288"
       />
     </UPageHero>
     <UPageSection
@@ -46,17 +48,17 @@ useSeoMeta({
       }"
     >
       <MDC
-        :value="page.content"
+        :value="page.bio"
         unwrap="p"
       />
-      <div class="flex flex-row justify-center items-center py-10 space-x-[-2rem]">
-<!--        <PolaroidItem-->
-<!--          v-for="(image, index) in page.images"-->
-<!--          :key="index"-->
-<!--          :image="image"-->
-<!--          :index-->
-<!--        />-->
-      </div>
+      <!-- <div class="flex flex-row justify-center items-center py-10 space-x-[-2rem]">
+       <PolaroidItem
+         v-for="(image, index) in page.images"
+         :key="index"
+         :image="image"
+         :index
+       />
+      </div> -->
     </UPageSection>
   </UPage>
 </template>
