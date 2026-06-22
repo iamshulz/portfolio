@@ -135,7 +135,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'about.yml',
       schema: z.object({
-        content: z.object({}),
+        bio: z.string(),
         images: z.array(createImageSchema())
       })
     })
