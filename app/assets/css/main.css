@@ -8,6 +8,21 @@
   --font-serif: 'Instrument Serif', serif;
 }
 
+@keyframes slide-down {
+  from {
+    transform: translateX(-50%) translateY(-120%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+}
+
+@theme {
+  --animate-slide-down: slide-down 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
 :root {
   --ui-container: var(--container-4xl);
 
