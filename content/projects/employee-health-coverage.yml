@@ -1,0 +1,18 @@
+slug: employee-health-coverage
+title: Employee Record Management & Student Health Coverage
+description: Web application managing employee records and student health coverage at Iroc Asia, integrating Google Maps, Calendar, and Sheets APIs.
+image: /content/iroc-asia/image-1.png
+url: ""
+tags: ["PHP", "ASP.NET", "Slim", "Twig", "Google Maps", "Google API"]
+date: "2020"
+gallery:
+  - /content/iroc-asia/image-1.png
+  - /content/iroc-asia/image-2.png
+  - /content/iroc-asia/image-3.png
+  - /content/iroc-asia/image-4.png
+  - /content/iroc-asia/image-5.png
+  - /content/iroc-asia/image-6.png
+  - /content/iroc-asia/image-7.png
+  - /content/iroc-asia/image-8.png
+  - /content/iroc-asia/image-9.png
+  - /content/iroc-asia/image-10.png

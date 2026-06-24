@@ -51,14 +51,35 @@ useSeoMeta({
         :value="page.bio"
         unwrap="p"
       />
-      <!-- <div class="flex flex-row justify-center items-center py-10 space-x-[-2rem]">
-       <PolaroidItem
-         v-for="(image, index) in page.images"
-         :key="index"
-         :image="image"
-         :index
-       />
-      </div> -->
+    </UPageSection>
+
+    <UPageSection
+      v-if="page.skills?.length"
+      title="Tech Stack"
+      :ui="{
+        container: '!pt-0'
+      }"
+    >
+      <div class="flex flex-col gap-6">
+        <div
+          v-for="group in page.skills"
+          :key="group.category"
+          class="flex flex-col gap-2"
+        >
+          <span class="text-sm font-medium text-muted">{{ group.category }}</span>
+          <div class="flex flex-wrap gap-2">
+            <UBadge
+              v-for="item in group.items"
+              :key="item"
+              color="neutral"
+              variant="subtle"
+              size="md"
+            >
+              {{ item }}
+            </UBadge>
+          </div>
+        </div>
+      </div>
     </UPageSection>
   </UPage>
 </template>

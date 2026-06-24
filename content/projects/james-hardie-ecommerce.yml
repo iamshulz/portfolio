@@ -1,0 +1,20 @@
+slug: james-hardie-ecommerce
+title: James Hardie Ecommerce
+description: Ecommerce platform for James Hardie Philippines featuring product catalog, Google Maps dealer locator, and custom PyroCMS implementation with Tailwind UI.
+image: /content/xiklab/image-1.png
+url: https://jameshardie.com.ph
+tags: ["PHP", "Laravel", "PyroCMS", "Vue", "Tailwind", "Google Maps"]
+date: "2022"
+gallery:
+  - /content/xiklab/image-1.png
+  - /content/xiklab/image-2.jpg
+  - /content/xiklab/image-3.jpg
+  - /content/xiklab/image-4.jpg
+  - /content/xiklab/image-5.jpg
+  - /content/xiklab/image-6.jpg
+  - /content/xiklab/image-7.jpg
+  - /content/xiklab/image-8.jpg
+  - /content/xiklab/image-9.jpg
+  - /content/xiklab/image-10.jpg
+  - /content/xiklab/image-11.jpg
+  - /content/xiklab/image-12.jpg

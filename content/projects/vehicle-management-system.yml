@@ -1,0 +1,16 @@
+slug: vehicle-management-system
+title: Vehicle Management System
+description: Web-based fleet and vehicle management system built for Artisan Developers, handling vehicle records, assignments, and maintenance tracking.
+image: /content/artisan-developers/image-1.png
+url: ""
+tags: ["PHP", "Laravel"]
+date: "2020"
+gallery:
+  - /content/artisan-developers/image-1.png
+  - /content/artisan-developers/image-2.png
+  - /content/artisan-developers/image-3.png
+  - /content/artisan-developers/image-4.png
+  - /content/artisan-developers/image-5.png
+  - /content/artisan-developers/image-6.png
+  - /content/artisan-developers/image-7.png
+  - /content/artisan-developers/image-8.png

@@ -1,0 +1,16 @@
+slug: condominium-system
+title: California Garden Square Condominium System
+description: Full-stack condominium management system for California Garden Square. Handles unit management, billing, and resident records.
+image: /content/isgb/image-1.png
+url: http://californiagardensquare.ph/
+tags: ["PHP", "Laravel", "Vue"]
+date: "2022"
+gallery:
+  - /content/isgb/image-1.png
+  - /content/isgb/image-2.png
+  - /content/isgb/image-3.png
+  - /content/isgb/image-4.png
+  - /content/isgb/image-5.png
+  - /content/isgb/image-6.png
+  - /content/isgb/image-7.png
+  - /content/isgb/image-8.png

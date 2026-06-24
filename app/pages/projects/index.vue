@@ -11,7 +11,7 @@ if (!page.value) {
 }
 
 const { data: projects } = await useAsyncData('projects', () => {
-  return queryCollection('projects').all()
+  return queryCollection('projects').order('date', 'DESC').all()
 })
 
 const { global } = useAppConfig()
@@ -22,6 +22,7 @@ useSeoMeta({
   description: page.value?.seo?.description || page.value?.description,
   ogDescription: page.value?.seo?.description || page.value?.description
 })
+
 </script>
 
 <template>
@@ -64,7 +65,6 @@ useSeoMeta({
         <UPageCard
           :title="project.title"
           :description="project.description"
-          :to="project.url"
           orientation="horizontal"
           variant="naked"
           :reverse="index % 2 === 1"
@@ -80,7 +80,8 @@ useSeoMeta({
           </template>
           <template #footer>
             <ULink
-              :to="project.url"
+              :to="`/projects/${project.slug}`"
+              target="_blank"
               class="text-sm text-primary flex items-center"
             >
               View Project
@@ -91,10 +92,17 @@ useSeoMeta({
             </ULink>
           </template>
           <img
+            v-if="project.image"
             :src="project.image"
             :alt="project.title"
             class="object-cover w-full h-48 rounded-lg"
           >
+          <div
+            v-else
+            class="w-full h-48 rounded-lg bg-muted flex items-center justify-center"
+          >
+            <UIcon name="i-lucide-image-off" class="size-10 text-muted" />
+          </div>
         </UPageCard>
       </Motion>
     </UPageSection>

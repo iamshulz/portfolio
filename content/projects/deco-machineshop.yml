@@ -1,0 +1,14 @@
+slug: deco-machineshop
+title: DECO Machineshop, Inc
+description: Company website for DECO Machineshop, Inc — showcasing their machining services, capabilities, and portfolio of industrial work.
+image: /content/deco/image-1.png
+url: http://beta.decomach.com/
+tags: ["Web Development", "PHP", "Jigsaw"]
+date: "2026"
+gallery:
+  - /content/deco/image-1.png
+  - /content/deco/image-2.png
+  - /content/deco/image-3.png
+  - /content/deco/image-4.png
+  - /content/deco/image-5.png
+  - /content/deco/image-6.png

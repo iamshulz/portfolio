@@ -89,12 +89,14 @@ export default defineContentConfig({
       type: 'data',
       source: 'projects/*.yml',
       schema: z.object({
+        slug: z.string(),
         title: z.string().nonempty(),
         description: z.string().nonempty(),
-        image: z.string().nonempty().editor({ input: 'media' }),
-        url: z.string().nonempty(),
+        image: z.string().optional().editor({ input: 'media' }),
+        url: z.string().optional(),
         tags: z.array(z.string()),
-        date: z.date()
+        date: z.date(),
+        gallery: z.array(z.string()).optional()
       })
     }),
     blog: defineCollection({
@@ -136,7 +138,11 @@ export default defineContentConfig({
       source: 'about.yml',
       schema: z.object({
         bio: z.string(),
-        images: z.array(createImageSchema())
+        images: z.array(createImageSchema()),
+        skills: z.array(z.object({
+          category: z.string(),
+          items: z.array(z.string())
+        })).optional()
       })
     })
   }

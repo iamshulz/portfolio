@@ -1,0 +1,21 @@
+slug: health-and-fitness
+title: Health and Fitness Website
+description: Full-stack health and fitness platform with Stripe payment integration, subscription management, and user workout tracking.
+image: /content/n90/image-1.png
+url: ""
+tags: ["PHP", "Laravel", "Vue", "Bootstrap", "Stripe"]
+date: "2022"
+gallery:
+  - /content/n90/image-1.png
+  - /content/n90/image-2.png
+  - /content/n90/image-3.jpg
+  - /content/n90/image-4.jpg
+  - /content/n90/image-5.jpg
+  - /content/n90/image-6.jpg
+  - /content/n90/image-7.jpg
+  - /content/n90/image-8.jpg
+  - /content/n90/image-9.jpg
+  - /content/n90/image-10.jpg
+  - /content/n90/image-11.jpg
+  - /content/n90/image-12.jpg
+  - /content/n90/image-13.jpg
