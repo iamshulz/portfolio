@@ -24,14 +24,14 @@ defineProps<{
           :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
           :transition="{ delay: 0.4 + 0.2 * index }"
           :in-view-options="{ once: true }"
-          class="text-muted flex items-center text-nowrap gap-2"
+          class="text-muted flex items-center flex-wrap gap-x-2 gap-y-1"
         >
-          <p class="text-sm">
+          <p class="text-sm shrink-0">
             {{ sideline.date }}
           </p>
-          <USeparator />
+          <USeparator class="hidden sm:block shrink-0" />
           <ULink
-            class="flex items-center gap-1"
+            class="flex items-center flex-wrap gap-x-1 gap-y-0.5 min-w-0"
             :to="sideline.company.url"
             target="_blank"
           >
@@ -39,7 +39,7 @@ defineProps<{
               {{ sideline.position }}
             </span>
             <div
-              class="inline-flex items-center gap-1"
+              class="inline-flex items-center gap-1 w-full sm:w-auto"
               :style="{ color: sideline.company.color }"
             >
               <span class="font-medium">{{ sideline.company.name }}</span>
