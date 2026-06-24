@@ -12,12 +12,12 @@ skills:
   - category: "CSS & Styling"
     items: ["Tailwind", "SASS", "Stylus", "Vuetify", "Bulma", "Bootstrap"]
   - category: "Backend"
-    items: ["PHP", "Laravel", "Slim", "Livewire", "Filament", "Node", "Express"]
+    items: ["ASP.NET", "Laravel", "Slim", "Livewire", "Filament", "Node", "Express"]
   - category: "CMS & Static"
     items: ["Statamic", "OctoberCMS", "PyroCMS", "Jigsaw"]
   - category: "Database"
     items: ["MySQL", "MS SQL", "MongoDB", "Prisma"]
   - category: "Languages"
-    items: ["C#", "ASP.NET"]
+    items: ["C#", "PHP"]
   - category: "DevOps & Cloud"
     items: ["Docker", "AWS", "Vercel"]
