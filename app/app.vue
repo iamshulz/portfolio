@@ -33,9 +33,36 @@ useHead({
 
 useSeoMeta({
   titleTemplate: '%s',
-  ogImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png',
-  twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/portfolio-light.png',
-  twitterCard: 'summary_large_image'
+  ogSiteName: 'Oliver Maglana',
+  ogType: 'website',
+  ogImage: 'https://olimaglana.dev/prof-pic.png',
+  twitterCard: 'summary_large_image',
+  twitterImage: 'https://olimaglana.dev/prof-pic.png',
+  twitterSite: '@jamols09'
+})
+
+useHead({
+  script: [{
+    type: 'application/ld+json',
+    innerHTML: JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      name: 'Oliver Maglana',
+      jobTitle: 'Full-stack Developer',
+      url: 'https://olimaglana.dev',
+      email: 'olivermaglana@proton.me',
+      image: 'https://olimaglana.dev/prof-pic.png',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Davao City',
+        addressCountry: 'PH'
+      },
+      sameAs: [
+        'https://github.com/jamols09'
+      ],
+      knowsAbout: ['PHP', 'Laravel', 'Vue', 'Nuxt', 'JavaScript', 'TypeScript', 'Full-stack Development']
+    })
+  }]
 })
 
 const [{ data: navigation }, { data: files }] = await Promise.all([

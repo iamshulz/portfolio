@@ -14,7 +14,11 @@ if (!project.value) {
 
 useSeoMeta({
   title: project.value?.title,
-  description: project.value?.description
+  description: project.value?.description,
+  ogTitle: project.value?.title,
+  ogDescription: project.value?.description,
+  ogImage: project.value?.image ? `https://olimaglana.dev${project.value.image}` : 'https://olimaglana.dev/prof-pic.png',
+  twitterImage: project.value?.image ? `https://olimaglana.dev${project.value.image}` : 'https://olimaglana.dev/prof-pic.png'
 })
 
 const images = computed(() => {

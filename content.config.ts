@@ -1,5 +1,10 @@
 import { defineCollection, defineContentConfig, z } from '@nuxt/content'
 
+const createSeoSchema = () => z.object({
+  title: z.string().optional(),
+  description: z.string().optional()
+}).optional()
+
 const createBaseSchema = () => z.object({
   title: z.string(),
   description: z.string()
@@ -116,6 +121,7 @@ export default defineContentConfig({
         { include: 'blog.yml' }
       ],
       schema: z.object({
+        seo: createSeoSchema(),
         links: z.array(createButtonSchema())
       })
     }),
@@ -123,6 +129,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'speaking.yml',
       schema: z.object({
+        seo: createSeoSchema(),
         links: z.array(createButtonSchema()),
         events: z.array(z.object({
           category: z.enum(['Live talk', 'Podcast', 'Conference']),
@@ -137,6 +144,7 @@ export default defineContentConfig({
       type: 'page',
       source: 'about.yml',
       schema: z.object({
+        seo: createSeoSchema(),
         bio: z.string(),
         images: z.array(createImageSchema()),
         skills: z.array(z.object({
