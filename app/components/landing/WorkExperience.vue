@@ -24,12 +24,11 @@ defineProps<{
           :while-in-view="{ opacity: 1, transform: 'translateY(0)' }"
           :transition="{ delay: 0.4 + 0.2 * index }"
           :in-view-options="{ once: true }"
-          class="text-muted flex items-center flex-wrap gap-x-2 gap-y-1"
+          class="text-muted flex flex-col text-left gap-x-2 gap-y-1"
         >
           <p class="text-sm shrink-0">
             {{ experience.date }}
           </p>
-          <USeparator class="hidden sm:block shrink-0" />
           <ULink
             class="flex items-center flex-wrap gap-x-1 gap-y-0.5 min-w-0"
             :to="experience.company.url"
@@ -45,6 +44,7 @@ defineProps<{
               <span class="font-medium">{{ experience.company.name }}</span>
               <UIcon :name="experience.company.logo" />
             </div>
+            <USeparator class="block shrink-0" />
           </ULink>
         </Motion>
       </div>
